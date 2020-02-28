@@ -67,7 +67,7 @@ function preinstall()
         apt update && apt -y upgrade
     fi
     echo "安装必要软件"
-    apt install -y telnet wget vim net-tools ntpdate unzip
+    apt install -y telnet wget vim net-tools ntpdate unzip curl
     apt autoremove -y
 }
 
